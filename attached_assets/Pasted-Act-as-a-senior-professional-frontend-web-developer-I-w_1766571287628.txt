@@ -1,0 +1,272 @@
+Act as a senior professional frontend web developer.
+
+I want you to build a COMPLETE, MODERN, PROFESSIONAL School Management System FRONTEND ONLY.
+
+========================
+TECHNOLOGY CONSTRAINTS
+========================
+- Use ONLY:
+  - HTML5
+  - CSS3
+  - Bootstrap 5
+  - Vanilla JavaScript (NO React, NO Vue, NO Angular)
+- No backend logic
+- No PHP processing (just frontend-ready structure)
+- Code must be clean, modular, commented
+- Fully responsive (mobile, tablet, desktop)
+
+========================
+PROJECT OVERVIEW
+========================
+The system has FOUR separate dashboards (role-based UI only):
+
+1) Super Admin Dashboard
+2) Teacher Dashboard
+3) Student Dashboard
+4) Parent Dashboard
+
+Each dashboard should have:
+- Separate folder
+- Separate sidebar
+- Separate navbar
+- Professional UI
+- Role-specific menu items
+
+RBAC should be visually simulated (separate dashboards, not actual auth logic).
+
+========================
+DESIGN REQUIREMENTS
+========================
+Color Theme:
+- Primary: Deep Blue / Indigo
+- Secondary: White & Light Gray
+- Accent: Emerald / Gold
+- Include Dark Mode + Light Mode toggle
+
+Fonts:
+- Headings: Poppins or Montserrat
+- Body: Inter or Roboto
+
+Animations:
+- Smooth sidebar collapse
+- Page fade-in animation
+- Card hover effects
+- Button ripple / hover animation
+
+UI must look like a REAL School ERP system.
+
+========================
+GLOBAL PAGES (COMMON)
+========================
+Create these pages:
+- Login Page
+- Forgot Password Page
+- Role Selection Page (Admin / Teacher / Student / Parent)
+- 403 Error Page
+- 404 Error Page
+- Loading Screen
+- Dark / Light Theme Toggle
+
+========================
+ADMIN DASHBOARD (SUPER ADMIN)
+========================
+Admin Dashboard Home Page must include:
+- Statistic cards:
+  - Total Students
+  - Total Teachers
+  - Total Parents
+  - Attendance % Today
+  - Ongoing Exams
+  - Fees Collected (Monthly)
+- Charts using Chart.js:
+  - Monthly Attendance (Bar Chart)
+  - Exam Performance (Line or Pie Chart)
+  - Fees Collection Graph
+- Quick Notifications:
+  - New student admission
+  - Pending result approvals
+  - Unread messages
+
+Admin Sidebar Modules (14 total):
+
+1. Dashboard
+   - Overview
+   - Charts & stats
+
+2. Class & Section Management
+   - Classes
+   - Sections
+   - Groups
+   - Capacity management
+
+3. Student Management
+   - Add Student
+   - Student List
+   - Parent Details
+   - Student ID Card (UI only)
+   - Attendance View
+
+4. Attendance Management
+   - Daily Attendance
+   - Class-wise Report
+   - Yearly Report
+   - Export UI (PDF / Excel)
+
+5. Teacher Management
+   - Add Teacher
+   - Assign Classes & Subjects
+   - Salary Slip (UI only)
+
+6. Subject Management
+   - Subjects per class
+   - Edit / Delete UI
+
+7. Class Routine
+   - Timetable creation
+   - Edit routine
+   - View routine
+
+8. Examination Management
+   - Exams
+   - Grades
+   - Marks Approval
+   - Result Publish
+   - Marksheet UI
+
+9. Notice & Communication
+   - Notices
+   - Messaging system
+   - Inbox / Sent
+
+10. Transport Management
+    - Routes
+    - Vehicles
+    - Assignment
+
+11. Accounting & Fees
+    - Account Titles
+    - Fee Slips
+    - Transactions
+    - Reports
+
+12. Hostel / Dormitory
+    - Dormitories
+    - Rooms
+    - Beds
+    - Occupancy
+
+13. Events Calendar
+    - School Events
+    - Personal Events
+
+14. Settings / Profile
+    - Admin Profile
+    - Change Password
+    - School Configuration
+    - Theme & Branding
+
+========================
+TEACHER DASHBOARD
+========================
+Teacher Dashboard Home:
+- Assigned Classes
+- Subjects
+- Today’s Schedule
+- Recent Notices
+
+Teacher Modules:
+- Dashboard
+- Students Info
+- Attendance
+- Exams & Marks (Submit UI)
+- Messages
+- Notices
+- Salary Slip (UI)
+- Profile
+- Events Calendar
+
+Note:
+Teacher submits marks UI only, Admin publishes results.
+
+========================
+STUDENT DASHBOARD
+========================
+Student Dashboard Home:
+- Class Info
+- Attendance %
+- Latest Notices
+- Upcoming Exams
+
+Student Modules:
+- Dashboard
+- Academic Info
+- Class Routine
+- Subjects & Teachers
+- Exams & Results
+- Fee Voucher (UI PDF)
+- Student ID Card (UI PDF)
+- Messages
+- Profile
+- Personal Calendar
+
+========================
+PARENT DASHBOARD
+========================
+Parent Dashboard Home:
+- Child Attendance
+- Performance Summary
+- Notices
+
+Parent Modules:
+- Dashboard
+- Child Academic Info
+- Attendance Summary
+- Results & Marksheet
+- Messages
+- Notices
+- Profile
+- Personal Notes Calendar
+
+========================
+FILE STRUCTURE REQUIRED
+========================
+Generate a clear folder structure like:
+
+/assets
+  /css
+  /js
+  /images
+/admin
+  dashboard.html
+  students.html
+  teachers.html
+  attendance.html
+  exams.html
+  settings.html
+/teacher
+  dashboard.html
+  attendance.html
+  marks.html
+/student
+  dashboard.html
+  exams.html
+/parent
+  dashboard.html
+/auth
+  login.html
+  forgot-password.html
+
+Each page must link correct CSS & JS files.
+
+========================
+FINAL OUTPUT INSTRUCTIONS
+========================
+- Generate ALL HTML, CSS, and JS code
+- Use dummy data where needed
+- Pages must be interconnected via navbar/sidebar links
+- Code must be copy-paste ready
+- Make UI look premium and professional
+- Ensure responsiveness on all screen sizes
+
+DO NOT explain.
+JUST BUILD THE COMPLETE FRONTEND.
